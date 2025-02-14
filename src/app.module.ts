@@ -16,7 +16,7 @@ import { Category } from './categories/entities/category.entity';
       username: process.env.DB_USERNAME,
       password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME,
-      entities: [Category], // Make sure Movie entity is added
+      entities: [Category],
       synchronize: true,
     }),
     CategoriesModule,
